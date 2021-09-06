@@ -1,0 +1,847 @@
+{
+  "id": "7e046755-68c2-4541-8b9b-c52bef5dbb20",
+  "version": "2.0",
+  "name": "test_wikipedia",
+  "url": "https://en.wikipedia.org/",
+  "tests": [{
+    "id": "62457580-61d2-4ea4-b32a-ce247877cc5c",
+    "name": "wikipedia_1",
+    "commands": [{
+      "id": "e45272ca-0bd5-4b22-895a-57cfa7f0b0bf",
+      "comment": "",
+      "command": "open",
+      "target": "https://en.wikipedia.org/wiki/Main_Page",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "090004af-7fce-4e90-89b4-54777ea887d1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x754",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5030bf2c-55c3-4667-8d3a-a391a8d5388e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Main page",
+      "targets": [
+        ["linkText=Main page", "linkText"],
+        ["css=#n-mainpage-description > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Main page')]", "xpath:link"],
+        ["xpath=//li[@id='n-mainpage-description']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/wiki/Main_Page')])[4]", "xpath:href"],
+        ["xpath=//div[5]/div[2]/nav/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Main page')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "529edc2d-665a-4970-b01f-2c5424fbb195",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contents",
+      "targets": [
+        ["linkText=Contents", "linkText"],
+        ["css=#n-contents > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Contents')]", "xpath:link"],
+        ["xpath=//li[@id='n-contents']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/wiki/Wikipedia:Contents')])[2]", "xpath:href"],
+        ["xpath=//div[5]/div[2]/nav/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contents')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7ccd312-b1dc-47f6-a92d-d7d1c89bb163",
+      "comment": "",
+      "command": "click",
+      "target": "css=#n-currentevents > a",
+      "targets": [
+        ["css=#n-currentevents > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Current events')])[3]", "xpath:link"],
+        ["xpath=//li[@id='n-currentevents']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/wiki/Portal:Current_events')])[3]", "xpath:href"],
+        ["xpath=//div[5]/div[2]/nav/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b18e4cc1-0918-49e1-a05b-758c867afaad",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Random article",
+      "targets": [
+        ["linkText=Random article", "linkText"],
+        ["css=#n-randompage > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Random article')]", "xpath:link"],
+        ["xpath=//li[@id='n-randompage']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Special:Random')]", "xpath:href"],
+        ["xpath=//div[2]/nav/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Random article')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "da6e853e-57d8-4f44-94e6-d064afc01883",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About Wikipedia",
+      "targets": [
+        ["linkText=About Wikipedia", "linkText"],
+        ["css=#n-aboutsite > a", "css:finder"],
+        ["xpath=//a[contains(text(),'About Wikipedia')]", "xpath:link"],
+        ["xpath=//li[@id='n-aboutsite']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Wikipedia:About')]", "xpath:href"],
+        ["xpath=//div[2]/nav/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About Wikipedia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd048475-cfac-4a93-8fb8-544e64b8ac0e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact us",
+      "targets": [
+        ["linkText=Contact us", "linkText"],
+        ["css=#n-contactpage > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Contact us')])[3]", "xpath:link"],
+        ["xpath=//li[@id='n-contactpage']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//en.wikipedia.org/wiki/Wikipedia:Contact_us')]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00d5e3d2-ee08-4b91-b68e-742f8a4ea6ba",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Help",
+      "targets": [
+        ["linkText=Help", "linkText"],
+        ["css=#n-help > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Help')]", "xpath:link"],
+        ["xpath=//li[@id='n-help']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Help:Contents')]", "xpath:href"],
+        ["xpath=//nav[2]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Help')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2d6b865-7786-47e3-b304-daa31f2fdeb0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Learn to edit",
+      "targets": [
+        ["linkText=Learn to edit", "linkText"],
+        ["css=#n-introduction > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Learn to edit')]", "xpath:link"],
+        ["xpath=//li[@id='n-introduction']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/wiki/Help:Introduction')])[5]", "xpath:href"],
+        ["xpath=//nav[2]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Learn to edit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5dcaa7f9-c287-4669-80d7-2f8bef8cf57f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Community portal",
+      "targets": [
+        ["linkText=Community portal", "linkText"],
+        ["css=#n-portal > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Community portal')]", "xpath:link"],
+        ["xpath=//li[@id='n-portal']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Wikipedia:Community_portal')]", "xpath:href"],
+        ["xpath=//nav[2]/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Community portal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b75c501-4121-4f40-bc44-db0b38365ee1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Recent changes",
+      "targets": [
+        ["linkText=Recent changes", "linkText"],
+        ["css=#n-recentchanges > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Recent changes')])[4]", "xpath:link"],
+        ["xpath=//li[@id='n-recentchanges']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/wiki/Special:RecentChanges')])[2]", "xpath:href"],
+        ["xpath=//nav[2]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddce6114-5ad9-4618-b088-0620ed8f1090",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Upload file",
+      "targets": [
+        ["linkText=Upload file", "linkText"],
+        ["css=#n-upload > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Upload file')]", "xpath:link"],
+        ["xpath=//li[@id='n-upload']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Wikipedia:File_Upload_Wizard')]", "xpath:href"],
+        ["xpath=//nav[2]/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Upload file')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a16e930-277c-46b4-b3a1-ca76bccd02f9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=What links here",
+      "targets": [
+        ["linkText=What links here", "linkText"],
+        ["css=#t-whatlinkshere > a", "css:finder"],
+        ["xpath=//a[contains(text(),'What links here')]", "xpath:link"],
+        ["xpath=//li[@id='t-whatlinkshere']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Special:WhatLinksHere/Wikipedia:File_Upload_Wizard')]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'What links here')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "753b6b70-8b87-4c90-8990-24e00f694556",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Printable version",
+      "targets": [
+        ["linkText=Printable version", "linkText"],
+        ["css=#t-print > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Printable version')]", "xpath:link"],
+        ["xpath=//li[@id='t-print']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:print();')]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Printable version')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "111b6d67-3d6d-46c9-baec-562d9cfeb8dc",
+      "comment": "",
+      "command": "click",
+      "target": "id=p-lang-label",
+      "targets": [
+        ["id=p-lang-label", "id"],
+        ["css=#p-lang-label", "css:finder"],
+        ["xpath=//h3[@id='p-lang-label']", "xpath:attributes"],
+        ["xpath=//nav[@id='p-lang']/h3", "xpath:idRelative"],
+        ["xpath=//nav[4]/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Languages')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a253e2b4-2178-47f8-93a8-cf1dc95fefd0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.uls-settings-trigger",
+      "targets": [
+        ["css=.uls-settings-trigger", "css:finder"],
+        ["xpath=//nav[@id='p-lang']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e59c963a-ed7f-4c32-b88a-3994ada6a036",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.uls-settings-trigger",
+      "targets": [
+        ["css=.uls-settings-trigger", "css:finder"],
+        ["xpath=//nav[@id='p-lang']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "450adfd4-e1e7-43b0-8743-c3729241e3aa",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,14)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d684d221-23c7-467a-84b5-021186a565b0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.uls-settings-trigger",
+      "targets": [
+        ["css=.uls-settings-trigger", "css:finder"],
+        ["xpath=//nav[@id='p-lang']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f7ed863-4b87-412e-9f47-8cc936a1f227",
+      "comment": "",
+      "command": "click",
+      "target": "css=#input-panel-trigger > .settings-title",
+      "targets": [
+        ["css=#input-panel-trigger > .settings-title", "css:finder"],
+        ["xpath=//button[@id='input-panel-trigger']/div", "xpath:idRelative"],
+        ["xpath=//button[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44dce2b2-a937-4831-8748-4ea0350ab594",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#input-panel-trigger > .settings-title",
+      "targets": [
+        ["css=#input-panel-trigger > .settings-title", "css:finder"],
+        ["xpath=//button[@id='input-panel-trigger']/div", "xpath:idRelative"],
+        ["xpath=//button[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8d81ac6-6418-4787-bad2-2f182a02a4bf",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#input-panel-trigger > .settings-title",
+      "targets": [
+        ["css=#input-panel-trigger > .settings-title", "css:finder"],
+        ["xpath=//button[@id='input-panel-trigger']/div", "xpath:idRelative"],
+        ["xpath=//button[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02d3d72b-d5a1-4abd-913b-36a8382c1748",
+      "comment": "",
+      "command": "click",
+      "target": "css=#display-panel-trigger > .settings-text",
+      "targets": [
+        ["css=#display-panel-trigger > .settings-text", "css:finder"],
+        ["xpath=//button[@id='display-panel-trigger']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Set language used for menus and fonts.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3025af8-f566-42c5-bb62-497459a35c3f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#display-panel-trigger > .settings-title",
+      "targets": [
+        ["css=#display-panel-trigger > .settings-title", "css:finder"],
+        ["xpath=//button[@id='display-panel-trigger']/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9eba4d7-a2f5-484b-82ca-7d11ae365d2b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#display-panel-trigger > .settings-title",
+      "targets": [
+        ["css=#display-panel-trigger > .settings-title", "css:finder"],
+        ["xpath=//button[@id='display-panel-trigger']/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fda62e6e-ce22-497a-bbfa-f5b8ace41c2f",
+      "comment": "",
+      "command": "click",
+      "target": "id=languagesettings-close",
+      "targets": [
+        ["id=languagesettings-close", "id"],
+        ["css=#languagesettings-close", "css:finder"],
+        ["xpath=//span[@id='languagesettings-close']", "xpath:attributes"],
+        ["xpath=//div[@id='language-settings-dialog']/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8d10818-6e51-491a-9afc-72fc896223ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mw-wiki-logo",
+      "targets": [
+        ["css=.mw-wiki-logo", "css:finder"],
+        ["xpath=//div[@id='p-logo']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Main_Page')]", "xpath:href"],
+        ["xpath=//div[5]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaa6c324-81a4-4d82-bb6a-4c68462b5e9c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ca-talk > a",
+      "targets": [
+        ["css=#ca-talk > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Talk')])[2]", "xpath:link"],
+        ["xpath=//li[@id='ca-talk']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Talk:Main_Page')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/nav/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc7cf1a2-a665-4870-94e8-2ebc81b8c599",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Read",
+      "targets": [
+        ["linkText=Read", "linkText"],
+        ["css=#ca-view > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Read')]", "xpath:link"],
+        ["xpath=//li[@id='ca-view']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/wiki/Talk:Main_Page')])[205]", "xpath:href"],
+        ["xpath=//div[2]/nav/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Read')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c06dcf1-002b-4a7c-8ad8-599204e4a8b4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View source",
+      "targets": [
+        ["linkText=View source", "linkText"],
+        ["css=#ca-viewsource > a", "css:finder"],
+        ["xpath=//a[contains(text(),'View source')]", "xpath:link"],
+        ["xpath=//li[@id='ca-viewsource']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/w/index.php?title=Talk:Main_Page&action=edit')]", "xpath:href"],
+        ["xpath=//div[2]/nav/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'View source')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea03365e-0380-4b71-92e9-3aa05754c82f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View history",
+      "targets": [
+        ["linkText=View history", "linkText"],
+        ["css=#ca-history > a", "css:finder"],
+        ["xpath=//a[contains(text(),'View history')]", "xpath:link"],
+        ["xpath=//li[@id='ca-history']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/w/index.php?title=Talk:Main_Page&action=history')]", "xpath:href"],
+        ["xpath=//div[2]/nav/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'View history')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef4710f6-8075-40a4-afe6-2451e808210e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contributions",
+      "targets": [
+        ["linkText=Contributions", "linkText"],
+        ["css=#pt-anoncontribs > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Contributions')]", "xpath:link"],
+        ["xpath=//li[@id='pt-anoncontribs']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Special:MyContributions')]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contributions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "55a5b286-8aa3-4202-90bb-f9d6fd461d71",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Create account",
+      "targets": [
+        ["linkText=Create account", "linkText"],
+        ["css=#pt-createaccount > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Create account')]", "xpath:link"],
+        ["xpath=//li[@id='pt-createaccount']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/w/index.php?title=Special:CreateAccount&returnto=Special%3AContributions%2F140.213.138.67')]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Create account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b154c1e0-719f-4d59-b1dc-d05baf5df5ff",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9c0686e-b39b-42ed-8e9f-233ab824ab62",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "selenium"
+    }, {
+      "id": "3f70f32f-e439-4737-bfb9-9dcd41c820b1",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "83fa136b-4d11-4d5d-a9cf-35a2ffa97319",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "7e304111-0326-47d5-90fc-9627d5076510",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "d287d792-4e75-4a4a-800b-c50c62d05273",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "86e4a4e7-10c0-4b06-b272-1ea6ca706ea5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Official website",
+      "targets": [
+        ["linkText=Official website", "linkText"],
+        ["css=.official-website .external", "css:finder"],
+        ["xpath=//a[contains(text(),'Official website')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/ul[2]/li/span/span/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://selenium.dev/')])[2]", "xpath:href"],
+        ["xpath=//span/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Official website')]", "xpath:innerText"]
+      ],
+      "value": "back_button"
+    }, {
+      "id": "ccd33b9e-93ca-488c-a5bb-1409d0854610",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Acceptance testing",
+      "targets": [
+        ["linkText=Acceptance testing", "linkText"],
+        ["css=ul:nth-child(41) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Acceptance testing')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Acceptance_testing')]", "xpath:href"],
+        ["xpath=//div[5]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Acceptance testing')]", "xpath:innerText"]
+      ],
+      "value": "back_button"
+    }, {
+      "id": "640036a9-af3c-4be4-ab05-2974b66056a2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Capybara (software)",
+      "targets": [
+        ["linkText=Capybara (software)", "linkText"],
+        ["css=ul:nth-child(41) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Capybara (software)')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Capybara_(software)')]", "xpath:href"],
+        ["xpath=//div[5]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Capybara (software)')]", "xpath:innerText"]
+      ],
+      "value": "back_button"
+    }, {
+      "id": "5263b72a-66e6-41aa-a62f-20cfd0eb018d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Given-When-Then",
+      "targets": [
+        ["linkText=Given-When-Then", "linkText"],
+        ["css=ul:nth-child(41) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Given-When-Then')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Given-When-Then')]", "xpath:href"],
+        ["xpath=//div[5]/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Given-When-Then')]", "xpath:innerText"]
+      ],
+      "value": "back_button"
+    }, {
+      "id": "eb1bb194-5b18-46f0-83ca-17ebfad8dbc9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=List of web testing tools",
+      "targets": [
+        ["linkText=List of web testing tools", "linkText"],
+        ["css=ul:nth-child(41) > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'List of web testing tools')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/List_of_web_testing_tools')]", "xpath:href"],
+        ["xpath=//div[5]/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'List of web testing tools')]", "xpath:innerText"]
+      ],
+      "value": "back_button"
+    }, {
+      "id": "8cbbfe72-709c-4139-87f3-e081ce43c22f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=MediaWiki Selenium",
+      "targets": [
+        ["linkText=MediaWiki Selenium", "linkText"],
+        ["css=li:nth-child(5) > .extiw", "css:finder"],
+        ["xpath=//a[contains(text(),'MediaWiki Selenium')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.mediawiki.org/wiki/Selenium')]", "xpath:href"],
+        ["xpath=//div[5]/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'MediaWiki Selenium')]", "xpath:innerText"]
+      ],
+      "value": "back_button"
+    }, {
+      "id": "5b3980d5-a908-4035-974e-cfbbd0223632",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Regression testing",
+      "targets": [
+        ["linkText=Regression testing", "linkText"],
+        ["css=ul:nth-child(41) > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Regression testing')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Regression_testing')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Regression testing')]", "xpath:innerText"]
+      ],
+      "value": "back_button"
+    }, {
+      "id": "54726648-816b-4270-8970-1cc04c421187",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Robot Framework",
+      "targets": [
+        ["linkText=Robot Framework", "linkText"],
+        ["css=ul:nth-child(41) > li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Robot Framework')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Robot_Framework')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Robot Framework')]", "xpath:innerText"]
+      ],
+      "value": "back_button"
+    }, {
+      "id": "22e85412-45fb-476c-ac9b-7ea406373c55",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Free and open-source software portal",
+      "targets": [
+        ["linkText=Free and open-source software portal", "linkText"],
+        ["css=li > span:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Free and open-source software portal')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/div[4]/ul/li/span[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Portal:Free_and_open-source_software')]", "xpath:href"],
+        ["xpath=//li/span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Free and open-source software portal')]", "xpath:innerText"]
+      ],
+      "value": "back_button"
+    }, {
+      "id": "4c45a532-208e-4778-910e-5c53a8c36d4c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Disclaimers",
+      "targets": [
+        ["linkText=Disclaimers", "linkText"],
+        ["css=#footer-places-disclaimer > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Disclaimers')]", "xpath:link"],
+        ["xpath=//li[@id='footer-places-disclaimer']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Wikipedia:General_disclaimer')]", "xpath:href"],
+        ["xpath=//ul[2]/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Disclaimers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddcbcb3b-f576-4849-bf9d-0566e2d9c862",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mobile view",
+      "targets": [
+        ["linkText=Mobile view", "linkText"],
+        ["css=.stopMobileRedirectToggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Mobile view')]", "xpath:link"],
+        ["xpath=//li[@id='footer-places-mobileview']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//en.m.wikipedia.org/w/index.php?title=Wikipedia:General_disclaimer&mobileaction=toggle_view_mobile')]", "xpath:href"],
+        ["xpath=//ul[2]/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mobile view')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93f8c011-27c5-428c-b5f9-50db960525c3",
+      "comment": "",
+      "command": "click",
+      "target": "id=mf-section-0",
+      "targets": [
+        ["id=mf-section-0", "id"],
+        ["css=#mf-section-0", "css:finder"],
+        ["xpath=//section[@id='mf-section-0']", "xpath:attributes"],
+        ["xpath=//div[@id='mw-content-text']/div/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b40a5fb-0a01-4024-a3d2-e9c7f7e51633",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Terms of Use",
+      "targets": [
+        ["linkText=Terms of Use", "linkText"],
+        ["css=#footer-places-terms-use > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Terms of Use')])[2]", "xpath:link"],
+        ["xpath=//li[@id='footer-places-terms-use']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//m.wikimediafoundation.org/wiki/Terms_of_Use')]", "xpath:href"],
+        ["xpath=//ul[2]/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9425f162-ad63-4c3b-9783-7f7f4c6b64f0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Disclaimers",
+      "targets": [
+        ["linkText=Disclaimers", "linkText"],
+        ["css=#footer-places-disclaimer > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Disclaimers')]", "xpath:link"],
+        ["xpath=//li[@id='footer-places-disclaimer']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Wikimedia:General_disclaimer')]", "xpath:href"],
+        ["xpath=//ul[2]/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1205801f-d07d-471a-a0e4-494b83cfbc56",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mobile view",
+      "targets": [
+        ["linkText=Mobile view", "linkText"],
+        ["css=.stopMobileRedirectToggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Mobile view')]", "xpath:link"],
+        ["xpath=//li[@id='footer-places-mobileview']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//foundation.m.wikimedia.org/w/index.php?title=Wikimedia:General_disclaimer&mobileaction=toggle_view_mobile')]", "xpath:href"],
+        ["xpath=//ul[2]/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mobile view')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46f8bb71-928b-43f8-b163-b659e2d7ea75",
+      "comment": "",
+      "command": "click",
+      "target": "id=mw-mf-main-menu-button",
+      "targets": [
+        ["id=mw-mf-main-menu-button", "id"],
+        ["css=#mw-mf-main-menu-button", "css:finder"],
+        ["xpath=//label[@id='mw-mf-main-menu-button']", "xpath:attributes"],
+        ["xpath=//div[@id='mw-mf-page-center']/header/form/nav/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Open main menu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af34bf09-5bae-4775-8d7e-866e8fe75381",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.mw-ui-icon-minerva-home", "css:finder"],
+        ["xpath=//ul[@id='p-navigation']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Home')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d8360b6-caa9-4e5f-8f85-10f8e88b869f",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) > td:nth-child(2) b",
+      "targets": [
+        ["css=tr:nth-child(1) > td:nth-child(2) b", "css:finder"],
+        ["xpath=//section[@id='mf-section-0']/div/div[2]/table/tbody/tr/td[2]/a/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'Wikipedia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "efbf3416-472a-4c90-b738-ae5c489ae67a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#js-link-box-en > strong",
+      "targets": [
+        ["css=#js-link-box-en > strong", "css:finder"],
+        ["xpath=//a[@id='js-link-box-en']/strong", "xpath:idRelative"],
+        ["xpath=//a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'English')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c70a9a5-902e-4598-b391-7f66705f959f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=The arts",
+      "targets": [
+        ["linkText=The arts", "linkText"],
+        ["css=#mp-portals > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'The arts')]", "xpath:link"],
+        ["xpath=//ul[@id='mp-portals']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Portal:The_arts')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'The arts')]", "xpath:innerText"]
+      ],
+      "value": "back\\n"
+    }, {
+      "id": "584a871f-eaed-4c5e-89b3-0aa60b8ce29a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Biography",
+      "targets": [
+        ["linkText=Biography", "linkText"],
+        ["css=.portal-vmid:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Biography')]", "xpath:link"],
+        ["xpath=//ul[@id='mp-portals']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Portal:Biography')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Biography')]", "xpath:innerText"]
+      ],
+      "value": "finish\\n"
+    }]
+  }],
+  "suites": [{
+    "id": "fe30d611-0303-4451-af1c-a9bc5cb4eaa2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["62457580-61d2-4ea4-b32a-ce247877cc5c"]
+  }],
+  "urls": ["https://en.wikipedia.org/"],
+  "plugins": []
+}
